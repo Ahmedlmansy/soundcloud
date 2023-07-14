@@ -1,0 +1,312 @@
+body {
+  font: 12px/1.4 Lucida Grande, Lucida Sans Unicode, Lucida Sans, Garuda, Verdana, Tahoma, sans-serif;
+  background-color: #eee;
+}
+body .navbar {
+  background-color: #333 !important;
+}
+body .navbar svg {
+  margin: 8px;
+  width: 46px;
+}
+body .navbar .nav-link {
+  color: white !important;
+  padding: 12px 0;
+}
+body .navbar .nav-li {
+  border-right: 0.2px solid #000000;
+}
+body .navbar form {
+  padding: 9px 10px 8px;
+}
+body .container-fluid {
+  height: 65px;
+}
+body .dropdown a img {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+}
+
+.navbar-collapse {
+  background-color: #333;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 18px;
+  margin: 1px;
+}
+
+.img-study {
+  width: 115px;
+  height: 115px;
+}
+
+.dv-h3 h3 {
+  font-size: 24px;
+  font-weight: 100;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.scorl {
+  overflow-x: scroll;
+}
+.scorl ::-webkit-scrollbar {
+  width: 1px;
+  border-radius: 7px;
+}
+.scorl ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.scorl ::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.3);
+}
+.scorl ::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+.scorl .div-one {
+  margin: 10px;
+}
+.scorl .name-el {
+  font-size: 11.5px;
+  color: #333;
+}
+.scorl .name-el .p-ar {
+  font-weight: bold;
+  color: #333;
+}
+.scorl .name-el .p-en {
+  font-size: 10px;
+  color: #999999;
+}
+
+.div-part-one {
+  margin: 10px;
+}
+.div-part-one .p-ar {
+  font-weight: bold;
+  color: #333;
+}
+.div-part-one .p-en {
+  font-size: 10px;
+  color: #999999;
+}
+
+.yaser {
+  background-image: url(../img/yaser.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 115px;
+  height: 115px;
+}
+.yaser a svg {
+  border-radius: 50%;
+  background-color: #f50;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+}
+
+.Mashry {
+  background-image: url(../img/msh.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 115px;
+  height: 115px;
+}
+.Mashry a svg {
+  border-radius: 50%;
+  background-color: #f50;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+}
+
+.lol {
+  visibility: hidden;
+}
+
+.loll {
+  visibility: inherit;
+}
+
+.play-hover:hover .lol {
+  visibility: inherit;
+}
+
+.ad {
+  background-image: url(../img/ad.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 115px;
+  height: 115px;
+}
+.ad a svg {
+  border-radius: 50%;
+  background-color: #f50;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+}
+
+.elb {
+  background-image: url(../img/elb.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 115px;
+  height: 115px;
+}
+.elb a svg {
+  border-radius: 50%;
+  background-color: #f50;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+}
+
+.maher {
+  background-image: url(../img/maher.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 115px;
+  height: 115px;
+}
+.maher a svg {
+  border-radius: 50%;
+  background-color: #f50;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+}
+
+.img-mix {
+  background-image: url(../img/maher.jpg);
+  width: 180px;
+  height: 180px;
+  margin-top: 14px;
+}
+
+.all-mix {
+  overflow-y: scroll;
+  height: 200px;
+}
+.all-mix .sug-a a {
+  color: #fff;
+}
+.all-mix .sug-a a .span-1 {
+  color: hsla(0, 0%, 100%, 0.7);
+}
+
+.sug-a:hover {
+  background: linear-gradient(135deg, rgb(153, 136, 130) 0%, rgb(65, 72, 83) 100%);
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.sug-els {
+  color: #999999;
+}
+
+.img-art .img img {
+  border-radius: 50%;
+  width: 67px;
+}
+
+.info-art {
+  color: #999;
+}
+.info-art p span svg rect {
+  fill: rgba(153, 153, 153, 0.6);
+}
+
+.add {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.add .but a {
+  border: 1px solid #999;
+  padding: 3px;
+  color: #000;
+}
+
+.sh1 {
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 75px;
+  height: 75px;
+  background-image: url(../img/elb.jpg);
+}
+.sh1 a svg {
+  border-radius: 50%;
+  background-color: #f50;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+}
+
+.sh2 {
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 75px;
+  height: 75px;
+  background-image: url(../img/ad.jpg);
+}
+.sh2 a svg {
+  border-radius: 50%;
+  background-color: #f50;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+}
+
+.sh3 {
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 75px;
+  height: 75px;
+  background-image: url(../img/maher.jpg);
+}
+.sh3 a svg {
+  border-radius: 50%;
+  background-color: #f50;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+}
+
+.sh4 {
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 75px;
+  height: 75px;
+  background-image: url(../img/msh.jpg);
+}
+.sh4 a svg {
+  border-radius: 50%;
+  background-color: #f50;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+}
+
+.Policy a {
+  color: #ccc;
+}/*# sourceMappingURL=soundcloud.css.map */
